@@ -2,7 +2,7 @@
 
 **Version:** 1.0
 **Tier:** 1 — Landing Page ($900 build + $149/month)
-**Status:** Demo / Mockup (fictional business — for Sower Creative Tech prospect demos)
+**Status:** Demo / Mockup (fictional business — for Sower Creative prospect demos)
 **Delivery target:** 3 days from content receipt
 
 ---
@@ -29,7 +29,7 @@
 
 ## Purpose of This Build
 
-This is a **demo landing page** built to show prospective Sower Creative Tech clients
+This is a **demo landing page** built to show prospective Sower Creative clients
 what a Tier 1 Landing Page looks like in practice. It should represent the full scope
 and quality of a real Tier 1 delivery — not a shortcut version.
 
@@ -43,7 +43,7 @@ The fictional business (Cascade Clean Co.) was chosen because:
 ## Page Structure (1 page — Tier 1)
 
 ### Sections (in order)
-1. **Demo banner** — thin top bar noting this is a Sower Creative Tech demo
+1. **Demo banner** — thin top bar noting this is a Sower Creative demo
 2. **Top bar** — service area tagline + phone number
 3. **Header** — logo wordmark + phone + primary CTA (sticky)
 4. **Hero** — headline, subheadline, two CTAs (form + phone)

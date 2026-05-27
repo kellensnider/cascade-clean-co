@@ -2,7 +2,7 @@
 
 **Tier:** 1 — Landing Page
 **Status:** Demo / Mockup (fictional business)
-**Purpose:** Sower Creative Tech prospect demo — shows prospects what a Tier 1 Landing Page looks like
+**Purpose:** Sower Creative prospect demo — shows prospects what a Tier 1 Landing Page looks like
 
 ---
 

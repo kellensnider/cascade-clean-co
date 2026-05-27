@@ -3,7 +3,7 @@
 /* =========================================
    CASCADE CLEAN CO. — main.js
    Tier 1 Landing Page (no navigation)
-   Sower Creative Tech
+   Sower Creative
 ========================================= */
 
 document.addEventListener('DOMContentLoaded', () => {
