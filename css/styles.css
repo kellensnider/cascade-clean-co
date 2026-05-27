@@ -480,21 +480,13 @@ p {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(135deg, var(--mc-secondary) 0%, var(--mc-primary) 50%, #3a9b7a 100%);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  /* Left-anchored gradient — keeps text legible while photo shows on right */
-  background: linear-gradient(
-    105deg,
-    var(--mc-hero-overlay-dark)  0%,
-    var(--mc-hero-overlay-mid)   55%,
-    transparent                  100%
-  );
+  background: var(--mc-hero-overlay-mid);
 }
 
 .hero-content {
@@ -1198,38 +1190,12 @@ p {
     grid-template-columns: 1fr;
   }
 
-  /* Photo strip: single column on small screens */
-  .photo-strip-grid {
-    grid-template-columns: 1fr;
-  }
-
-  /* Shorten header CTA text to prevent overflow — full text still in DOM for a11y */
-  .btn-text-full { display: none; }
-  .btn-text-short { display: inline; }
-
-  /* Shrink header button and wordmark so they fit at 360px+ */
-  .logo-wordmark {
-    font-size: 0.88rem;
-  }
-
-  .lp-header-inner {
-    gap: var(--spacing-xs);
-  }
-
-  .lp-header-cta {
-    gap: var(--spacing-xs);
-  }
-
+  /* Hide header CTA button — phone link in topbar is sufficient on small screens */
   .lp-header-cta .btn {
-    padding: 0.5rem 0.9rem;
-    font-size: 0.8rem;
-    letter-spacing: 0;
+    display: none;
   }
 
   .location-map-wrap iframe {
     height: 280px;
   }
 }
-
-/* Default: long button text visible, short hidden */
-.btn-text-short { display: none; }
