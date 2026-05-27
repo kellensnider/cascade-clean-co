@@ -18,8 +18,7 @@
   <!-- TODO: Create og-image.jpg (1200×630px) and add to images/ -->
   <meta property="og:image" content="https://kellensnider.github.io/cascade-clean-co/images/og-image.jpg">
 
-  <!-- TODO: Add favicon.ico to images/ before any live launch -->
-  <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 
   <!-- Google Fonts: Playfair Display (headings) + DM Sans (body/UI) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,7 +87,10 @@
           </svg>
           (541) 555-0182
         </a>
-        <a href="#contact" class="btn btn-primary">Get a Free Estimate</a>
+        <a href="#contact" class="btn btn-primary">
+          <span class="btn-text-full">Get a Free Estimate</span>
+          <span class="btn-text-short">Free Quote</span>
+        </a>
       </div>
 
     </div>
@@ -106,12 +108,11 @@
     ============================================= -->
     <section class="hero" aria-labelledby="hero-heading">
 
-      <!-- TODO: Replace background-image with client hero photo (e.g. images/hero-bg.jpg)
-           and set role/aria-label to describe the photo -->
       <div
         class="hero-bg"
+        style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80&auto=format&fit=crop');"
         role="img"
-        aria-label="Bright modern kitchen — clean countertops and natural light"
+        aria-label="Professional cleaner wiping down kitchen countertops in a bright modern home"
       ></div>
       <div class="hero-overlay" aria-hidden="true"></div>
 
@@ -286,6 +287,46 @@
 
 
     <!-- =============================================
+         PHOTO STRIP
+    ============================================= -->
+    <section class="photo-strip" aria-label="Examples of our cleaning work in Bend homes">
+      <div class="photo-strip-grid">
+
+        <div class="photo-strip-item">
+          <img
+            src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80&auto=format&fit=crop"
+            alt="Spotless modern kitchen with clean white countertops and stainless appliances"
+            loading="lazy"
+            width="800"
+            height="600"
+          >
+        </div>
+
+        <div class="photo-strip-item">
+          <img
+            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop"
+            alt="Professional cleaner in rubber gloves scrubbing a bright bathroom"
+            loading="lazy"
+            width="800"
+            height="600"
+          >
+        </div>
+
+        <div class="photo-strip-item">
+          <img
+            src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80&auto=format&fit=crop"
+            alt="Clean bright living space with fresh surfaces and natural light"
+            loading="lazy"
+            width="800"
+            height="600"
+          >
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
          TESTIMONIALS
     ============================================= -->
     <section class="testimonials-section section-pad" aria-labelledby="testimonials-heading">
@@ -350,6 +391,96 @@
           </article>
 
         </div><!-- /.testimonials-grid -->
+
+      </div>
+    </section>
+
+
+    <!-- =============================================
+         LOCATION
+    ============================================= -->
+    <section class="location-section section-pad" aria-labelledby="location-heading">
+      <div class="container">
+
+        <div class="text-center" style="margin-bottom: var(--spacing-xl);">
+          <span class="section-label">Find Us</span>
+          <h2 class="section-heading" id="location-heading">Locally Based in Bend, OR</h2>
+          <p class="section-sub" style="margin-inline: auto;">
+            We're a Bend small business — not a franchise. You can always call or stop by to talk through your home's needs.
+          </p>
+        </div>
+
+        <div class="location-grid">
+
+          <!-- Info column -->
+          <div class="location-details">
+
+            <div class="location-detail-item animate-fade-up">
+              <div class="location-detail-icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <span class="location-detail-label">Address</span>
+                <div class="location-detail-value">
+                  725 NW 20th St, Suite 100<br>
+                  Bend, OR 97703
+                </div>
+              </div>
+            </div>
+
+            <div class="location-detail-item animate-fade-up animate-delay-1">
+              <div class="location-detail-icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <span class="location-detail-label">Phone</span>
+                <div class="location-detail-value">
+                  <a href="tel:+15415550182">(541) 555-0182</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-detail-item animate-fade-up animate-delay-2">
+              <div class="location-detail-icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div>
+                <span class="location-detail-label">Hours</span>
+                <div class="location-detail-value">
+                  <div class="hours-table">
+                    <span class="hours-day">Monday &ndash; Friday</span>
+                    <span class="hours-time">7:00 AM &ndash; 6:00 PM</span>
+                    <span class="hours-day">Saturday</span>
+                    <span class="hours-time">8:00 AM &ndash; 4:00 PM</span>
+                    <span class="hours-day">Sunday</span>
+                    <span class="hours-time hours-closed">Closed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /.location-details -->
+
+          <!-- Map column -->
+          <div class="location-map-wrap animate-fade-up animate-delay-1">
+            <iframe
+              src="https://maps.google.com/maps?q=Bend,+OR+97703&t=&z=14&ie=UTF8&iwloc=&output=embed"
+              title="Map showing Cascade Clean Co. service area — Bend, OR"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+        </div><!-- /.location-grid -->
 
       </div>
     </section>
